@@ -20,7 +20,7 @@ namespace DurableTest
         {
             log.LogInformation($"Start Processing number {number} ");
 
-            await Task.Delay(60000);
+            await Task.Delay(30000);
 
             log.LogInformation($"End Processing number {number} ");
 
